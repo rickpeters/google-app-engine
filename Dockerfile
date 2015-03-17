@@ -36,7 +36,7 @@ ADD configs/appengine/appcfg_nag /root/.appcfg_nag
 
 # Start
 
-WORKDIR "/app"
+WORKDIR /app
 VOLUME ["/app"]
 EXPOSE 22 8000 8080
 CMD ["supervisord", "-n"]
