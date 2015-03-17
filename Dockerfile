@@ -18,7 +18,7 @@ MAINTAINER Rick Peters <rick.peters@me.com>
 # Google App Engine
 
 # Download Google App Engine SDK
-RUN wget -O /appengine.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.6.zip
+RUN wget -O /appengine.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.18.zip
 
 # Extract it
 RUN apt-get install unzip -y
