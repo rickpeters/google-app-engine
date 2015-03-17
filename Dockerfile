@@ -1,7 +1,7 @@
 # Docker: Google App Engine
 
 FROM dockie/lamp
-MAINTAINER Rob Loach <robloach@gmail.com>
+MAINTAINER Rick Peters <rick.peters@me.com>
 
 
 # PHP 5.4
